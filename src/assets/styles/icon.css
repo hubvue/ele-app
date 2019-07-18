@@ -1,0 +1,52 @@
+/* 定位css图标 */
+.pin-solid.icon {
+    color: #fff;
+    position: absolute;
+    margin-left: 4px;
+    margin-top: 2px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px currentColor;
+    border-radius: 7px 7px 7px 0;
+    background-color: currentColor;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.pin-solid.icon:before {
+    content: '';
+    position: absolute;
+    left: 3px;
+    top: 3px;
+    width: 4px;
+    height: 4px;
+    color: #0af;
+    border: solid 1px currentColor;
+    border-radius: 3px;
+    background-color: currentColor;
+}
+
+/* 搜索图标 */
+
+.search.icon {
+    color: #000;
+    position: absolute;
+    margin-top: 2px;
+    margin-left: 3px;
+    width: 12px;
+    height: 12px;
+    border: solid 1px currentColor;
+    border-radius: 100%;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+.search.icon:before {
+    content: '';
+    position: absolute;
+    top: 12px;
+    left: 5px;
+    height: 6px;
+    width: 1px;
+    background-color: currentColor;
+}
