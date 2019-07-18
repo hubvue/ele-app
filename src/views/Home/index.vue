@@ -45,7 +45,6 @@
       </div>
     </main>
     <!-- footer -->
-    
   </div>
 </template>
 <script>
@@ -117,10 +116,10 @@ export default {
 }
 /* 搜索 */
 .search__container {
-  background-image: linear-gradient(90deg, #0af, #0085ff);
+  background-image: linear-gradient(90deg, rgb(0, 170, 255), #0085ff);
   position: sticky;
   top: 0px;
-  z-index:99px;
+  z-index: 99px;
   padding: 10px 20px;
   margin-top: -1px;
 }
@@ -189,6 +188,5 @@ export default {
 span.filter_active {
   color: #000;
 }
-
 </style>
 
